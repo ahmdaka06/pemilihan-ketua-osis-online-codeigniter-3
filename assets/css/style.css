@@ -1,0 +1,77 @@
+html{
+  position: relative;
+  min-height: 100%;
+}
+.main-header .navbar { 
+  margin-left: 0; height: 80px;
+}
+.main-header .logo {
+  height: 80px;
+  width: 230px;
+}
+.main-header .logo img{
+  margin-top: 10px;
+}
+.navbar{
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.2);
+}
+.navbar-toggle{
+  background: #3c8dbc;
+  border-radius: 0;
+  margin: 15px;
+}
+#user{
+  background: #f7f7f7;
+  padding: 10px 30px 30px 20px;
+}
+.left{
+  margin: 70px auto;
+  font-size: 15px;
+}
+.left b{
+  font-size: 18px;
+}
+.right{
+  margin: 40px auto 70px auto;
+  font-size: 15px;
+}
+.right h1{
+  font-size: 34px;
+}
+.login-box{
+  margin: 0;
+}
+
+.konten{
+  margin-top: 25px;
+  margin-bottom: 60px;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px 25px;
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+  height: 60px;
+  box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 768px){
+  .right{
+    margin: 20px auto 70px auto;
+    font-size: 14px;
+  }
+  .right h1{
+    font-size: 25px;
+  }
+  .left{
+    margin: 30px auto;
+    font-size: 14px;
+  }
+  .left b{
+    font-size: 16px;
+  }
+}
