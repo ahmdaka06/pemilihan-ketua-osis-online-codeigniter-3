@@ -6,10 +6,6 @@ class Siswa_model extends CI_Model {
     private $table = 'data_siswa';
     public $id = 'id';
 
-    function __construct(){
-        parent::__construct();
-    }
-
     // Ini Untuk Login
 
 	function checkUser($username){

@@ -7,7 +7,7 @@ $(document).ready(function(){
   $('#btn-login').click(function(){
     var user = $('#username').val();
     var pass = $('#password').val()
-    if (user == '' || pass == '') {
+    if (user === '' || pass === '') {
       swal("Oops...", "Username dan Password tidak boleh kosong!", "error");
     }else{
       var data = new FormData();

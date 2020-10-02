@@ -6,7 +6,7 @@ $(document).ready(function(){
   $('#btn-login').click(function(){
     var nm = $('#username').val();
     var ns = $('#password').val()
-    if (nm == '' || ns == '') {
+    if (nm === '' || ns === '') {
       swal("Oops...", "Nama dan NIS tidak boleh kosong!", "error");
     }else{
       var data = new FormData();
@@ -82,3 +82,4 @@ $(document).ready(function(){
     });
 
   });
+});

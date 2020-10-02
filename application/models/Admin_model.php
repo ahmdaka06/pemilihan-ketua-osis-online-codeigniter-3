@@ -6,10 +6,6 @@ class Admin_model extends CI_Model {
     private $table = 'admin';
     public $id = 'id';
 
-    function __construct(){
-        parent::__construct();
-    }
-
 	function checkAdmin($username){
 		$query = $this->db->where(['username' => $username]);
 		$query = $this->db->get($this->table);

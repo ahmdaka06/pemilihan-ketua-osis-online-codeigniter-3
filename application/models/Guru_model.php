@@ -5,11 +5,7 @@ class Guru_model extends CI_Model {
 
     private $table = 'data_guru';
     public $id = 'id';
-
-    function __construct(){
-        parent::__construct();
-    }
-
+	
 	function checkUser($username){
 		$query = $this->db->where(['username' => $username, 'status' => '0']);
 		$query = $this->db->from($this->table);
