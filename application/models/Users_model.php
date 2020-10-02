@@ -7,9 +7,4 @@ class Users_model extends CI_Model {
     public $id = 'id';
     public $order = 'DESC';
 
-    function __construct(){
-        parent::__construct();
-    }
-
-
 }
