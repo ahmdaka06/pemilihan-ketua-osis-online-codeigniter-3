@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>SMKENMO - Kelulusan</title>
+    <title>E-PILKATOS</title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="<?= base_url() ?>assets/css/bootstrap.min.css">
@@ -99,7 +99,8 @@
     <!-- Sweet Alert -->
     <script src="<?= base_url() ?>assets/js/sweetalert.min.js"></script>
     <!-- Ajax -->
-    <script src="<?= base_url() ?>assets/js/ajax-voting.js"></script>
+    <script src="<?= base_url() ?>assets/js/ajax-voting-guru.js"></script>
+    <script src="<?= base_url() ?>assets/js/ajax-voting-siswa.js"></script>
 
   </body>
 </html>
