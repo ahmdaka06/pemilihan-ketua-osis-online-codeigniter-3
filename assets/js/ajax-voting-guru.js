@@ -7,7 +7,7 @@ $(document).ready(function(){
   $('#btn-login').click(function(){
     var user = $('#username').val();
     var pass = $('#password').val()
-    if (user == '' || pass == '') {
+    if (user === '' || pass === '') {
       swal("Oops...", "Nama dan NIP tidak boleh kosong!", "error");
     }else{
       var data = new FormData();
@@ -63,7 +63,7 @@ $(document).ready(function(){
         }
       },
       success     : function(response){ 
-        if(response.status == "sukses"){ 
+        if(response.status === "sukses"){ 
           swal({
             title: "Good job!",
             text: "Terima Kasih",
