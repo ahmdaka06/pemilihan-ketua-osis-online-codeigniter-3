@@ -6,10 +6,6 @@ class Data_model extends CI_Model {
     private $table = 'data';
     public $id = 'id';
 
-    function __construct(){
-        parent::__construct();
-    }
-
 	function JumlahPemilih(){
 		$result = $this->db->get($this->table);
 		return $result->num_rows();
