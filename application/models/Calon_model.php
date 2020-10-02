@@ -6,11 +6,7 @@ class Calon_model extends CI_Model {
     private $table = 'calon';
     public $id = 'id';
     public $order = 'DESC';
-
-    function __construct(){
-        parent::__construct();
-    }
-
+	
 	function get(){
 		return $this->db->get($this->table);
 	}
