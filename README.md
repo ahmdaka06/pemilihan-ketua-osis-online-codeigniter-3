@@ -1,5 +1,5 @@
 # pemilihan-ketua-osis-online-codeigniter-3
-1 2 3 Bla bla bla jadi gini tinggal set set doang
+Edit database di application/config/database.php
 
 Login admin : urlweb/admin 
 username : admin
